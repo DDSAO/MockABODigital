@@ -35,7 +35,7 @@ export const NavigationBar = () => {
           bgColor="bg-lime-300 group-hover:bg-blue-950 text-black group-hover:text-lime-300 duration-150"
           className="group"
         >
-          <p className="font-light">Get in touch</p>
+          <p className="cursor-pointer font-light">Get in touch</p>
         </CircleButton>
       </div>
     </div>
