@@ -9,7 +9,7 @@ import { useRouter } from "next/navigation";
 export const LandingPage = () => {
   const router = useRouter();
   return (
-    <div className="w-full h-screen flex flex-col">
+    <div className="w-full min-h-screen flex flex-col bg-slate-50">
       <div className="grow mb-6 rounded-b-3xl bg-blue-950 flex flex-col">
         <NavigationBar />
         <div className="grid grid-cols-2 h-full">

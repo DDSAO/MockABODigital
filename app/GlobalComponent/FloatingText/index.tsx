@@ -12,7 +12,7 @@ export const FloatingText = ({
   text: string;
   className?: string;
 }) => {
-  const comp = useRef(null);
+  const comp = useRef();
   useLayoutEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
@@ -28,18 +28,26 @@ export const FloatingText = ({
         scrollTrigger: {
           trigger: ".gsap-container",
           toggleActions: "play",
+          // markers: true,
         },
       });
-    }, comp.current as any);
+    }, comp);
 
     return () => ctx.revert();
   }, []);
 
   return (
-    <div className={clsx("gsap-container flex flex-wrap relative", className)}>
+    <div
+      ref={comp as any}
+      className={clsx("flex flex-wrap relative", className)}
+      // className="gsap-container"
+    >
       {text.split(" ").map((word, i) => {
         return (
-          <div key={i} className="relative pr-3 pb-1 overflow-hidden">
+          <div
+            key={i}
+            className="gsap-container relative pr-3 pb-1 overflow-hidden"
+          >
             <p className="opacity-0">{word}</p>
             <div className="absolute flex top-[100%] words select-none">
               {Array.from(word).map((letter, j) => {
