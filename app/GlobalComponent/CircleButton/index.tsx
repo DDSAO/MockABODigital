@@ -35,7 +35,7 @@ export const CircleButton = ({
   }, []);
 
   useEffect(() => {
-    let duration = 0.1;
+    let duration = 0.2;
     timeline.current = gsap
       .timeline({ paused: true })
       .to(botRef.current, {

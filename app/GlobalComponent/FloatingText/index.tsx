@@ -18,11 +18,11 @@ export const FloatingText = ({
 
     let ctx = gsap.context(() => {
       gsap.to(".words", {
-        duration: 0.3,
+        duration: 0.7,
         top: 0,
         opacity: 1,
         delay: 0.3,
-        stagger: 0.01,
+        stagger: 0.05,
         ease: "sine.out",
         force3D: true,
         scrollTrigger: {
@@ -40,7 +40,6 @@ export const FloatingText = ({
     <div
       ref={comp as any}
       className={clsx("flex flex-wrap relative", className)}
-      // className="gsap-container"
     >
       {text.split(" ").map((word, i) => {
         return (

@@ -5,6 +5,7 @@ import { NavigationBar } from "./NavigationBar";
 import { SlidingText } from "@/app/GlobalComponent/SlidingText";
 import { FiArrowUpRight } from "react-icons/fi";
 import { useRouter } from "next/navigation";
+import { FloatingText } from "@/app/GlobalComponent/FloatingText";
 
 export const LandingPage = () => {
   const router = useRouter();
@@ -14,10 +15,11 @@ export const LandingPage = () => {
         <NavigationBar />
         <div className="grid grid-cols-2 h-full">
           <div className="min-h-[400px] h-full py-8 px-8 flex flex-col">
-            <div className="mt-32 text-white text-[108px] font-light leading-[102px]">
-              <p>A Mock up Website</p>
-              <p>of ABODigital</p>
-            </div>
+            <FloatingText
+              className="mt-32 pb-4 text-white text-[108px] font-light leading-[120px]"
+              text="Web3 financing solutions for the long-term."
+            />
+
             <div className="grow"></div>
             <div className="self-end flex flex-col gap-12 py-16">
               <p className="text-normal text-white">

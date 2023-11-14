@@ -1,4 +1,5 @@
 import { CustomisedSolution } from "./_components/CustomisedSolution";
+import { HorizontalScrolling } from "./_components/HorizontalScrolling";
 import { LandingPage } from "./_components/LandingPage";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <div>
       <LandingPage />
       <CustomisedSolution />
+      <HorizontalScrolling />
     </div>
   );
 }
