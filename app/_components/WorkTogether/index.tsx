@@ -22,7 +22,7 @@ export const WorkTogether = () => {
               <source src="" data-wf-ignore="true" />
             </video>
             <p className="self-start font-extralight text-neutral-500 text-6xl w-4/5">
-              Show us your project and we'll find a way.
+              {"Show us your project and we'll find a way."}
             </p>
             <CircleButton
               defaultBorderColor="bg-transparent"
@@ -32,7 +32,7 @@ export const WorkTogether = () => {
             >
               <div className="flex items-center justify-center gap-2">
                 <p className="cursor-pointer font-light whitespace-nowrap">
-                  Let's work together
+                  {"Let's work together"}
                 </p>
                 <MdArrowRightAlt />
               </div>
