@@ -18,11 +18,11 @@ export const FloatingText = ({
 
     let ctx = gsap.context(() => {
       gsap.to(".words", {
-        duration: 0.7,
+        duration: 0.3,
         top: 0,
         opacity: 1,
         delay: 0.3,
-        stagger: 0.05,
+        stagger: 0.02,
         ease: "sine.out",
         force3D: true,
         scrollTrigger: {

@@ -11,12 +11,12 @@ export const LandingPage = () => {
   const router = useRouter();
   return (
     <div className="w-full min-h-screen flex flex-col bg-slate-50">
-      <div className="grow mb-6 rounded-b-3xl bg-blue-950 flex flex-col">
+      <div className=" mb-10 rounded-b-3xl bg-blue-950 flex flex-col">
         <NavigationBar />
         <div className="grid grid-cols-2 h-full">
           <div className="min-h-[400px] h-full py-8 px-8 flex flex-col">
             <FloatingText
-              className="mt-32 pb-4 text-white text-[108px] font-light leading-[120px]"
+              className="mt-32 pb-4 text-white text-[80px] font-light leading-[88px]"
               text="Web3 financing solutions for the long-term."
             />
 
