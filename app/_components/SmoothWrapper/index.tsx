@@ -1,7 +1,6 @@
 "use client";
 
-import { ScrollSmoother } from "gsap-trial/ScrollSmoother";
-import { ScrollTrigger, gsap } from "gsap/all";
+import { ScrollTrigger, gsap, ScrollSmoother } from "gsap/all";
 import { useEffect } from "react";
 
 export const SmoothWrapper = ({
