@@ -10,12 +10,11 @@ export const SmoothWrapper = ({
   children: React.ReactNode | React.ReactNode[];
 }) => {
   useEffect(() => {
-    // gsap.config({ trialWarn: false } as any);
-    // gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
-    // ScrollSmoother.create({
-    //   wrapper: "#smooth-wrapper",
-    //   content: "#smooth-content",
-    // });
+    gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+    ScrollSmoother.create({
+      wrapper: "#smooth-wrapper",
+      content: "#smooth-content",
+    });
   }, []);
 
   return (
