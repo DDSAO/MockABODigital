@@ -1,7 +1,11 @@
 "use client";
 
-import { ScrollTrigger, gsap, ScrollSmoother } from "gsap/all";
 import { useEffect } from "react";
+import { gsap } from "gsap";
+
+/* The following plugin is a Club GSAP perk */
+import { ScrollSmoother } from "gsap/ScrollSmoother";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 export const SmoothWrapper = ({
   children,

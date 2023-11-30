@@ -2,8 +2,8 @@
 
 import clsx from "clsx";
 import { Power2, gsap } from "gsap";
-import { ScrollTrigger } from "gsap/all";
-import { useEffect, useLayoutEffect, useRef } from "react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useLayoutEffect, useRef } from "react";
 
 export const HorizontalSlideInBox = ({
   children,

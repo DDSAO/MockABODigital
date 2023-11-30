@@ -1,11 +1,7 @@
 "use client";
 
 import { FloatingText } from "@/app/GlobalComponent/FloatingText";
-import { gsap } from "gsap";
-import { SplitText } from "gsap/all";
 
-import { useEffect, useRef } from "react";
-import { BsDot } from "react-icons/bs";
 import { LoadingSVG } from "./LoadingSVG";
 
 export const CustomisedSolution = () => {

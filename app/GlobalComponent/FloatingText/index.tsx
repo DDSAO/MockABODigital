@@ -2,7 +2,7 @@
 
 import clsx from "clsx";
 import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/all";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useLayoutEffect, useRef } from "react";
 
 export const FloatingText = ({
