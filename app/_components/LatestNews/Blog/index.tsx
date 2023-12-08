@@ -1,9 +1,11 @@
-"use client"
+"use client";
 
-export const Blog = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+export const Blog = ({
+  image,
+}: {
+  image: string;
+  title: string;
+  url: string;
+}) => {
+  return <div></div>;
+};

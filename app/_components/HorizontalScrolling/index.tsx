@@ -1,5 +1,6 @@
 "use cleint";
 
+import { FloatingText } from "@/app/GlobalComponent/FloatingText";
 import { HorizontalScrollingBox } from "@/app/GlobalComponent/HorizontalScrollingBox";
 import { HorizontalSlideInBox } from "@/app/GlobalComponent/HorizontalSlideInBox";
 
@@ -12,11 +13,15 @@ export const HorizontalScrolling = () => {
       </div>
       <div className="grid grid-cols-3 gap-8">
         <div className="flex flex-col gap-2 justify-between py-4">
-          <p className="text-5xl font-light">We are backing innovators</p>
-          <p className="text-3xl">
-            Our methods have proven useful to the bold disruptors that are
-            building some of the best tech companies in the field.
-          </p>
+          <FloatingText
+            className="text-5xl font-light"
+            text="We are backing innovators"
+          />
+          <FloatingText
+            className="text-3xl"
+            text="Our methods have proven useful to the bold disruptors that are
+            building some of the best tech companies in the field."
+          />
         </div>
         <div className="col-span-2 flex flex-col gap-4">
           <HorizontalScrollingBox
@@ -31,7 +36,10 @@ export const HorizontalScrolling = () => {
         </div>
       </div>
       <div className="py-16 flex flex-col">
-        <p className="text-5xl font-light my-16">We grow as you grow</p>
+        <FloatingText
+          className="text-5xl font-light my-16"
+          text="We grow as you grow"
+        />
         <div className="h-screen grid grid-cols-4">
           <div className="relative h-full border-r border-slate-500 ">
             <div className="absolute left-0 top-0 w-full h-1/4">

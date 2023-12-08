@@ -1,14 +1,19 @@
 import { CircleButton } from "@/app/GlobalComponent/CircleButton";
+import { FloatingText } from "@/app/GlobalComponent/FloatingText";
 import { MdArrowRightAlt } from "react-icons/md";
 export const WorkTogether = () => {
   return (
     <div className="bg-black">
       <div className="bg-neutral-900 h-[600px] rounded-[32px] p-12">
         <div className="grid grid-cols-2 h-full">
-          <p className="font-extralight text-white text-6xl">
-            Our solutions are specific to your issues, and we love to create
-            customized methods.
-          </p>
+          <div>
+            <FloatingText
+              className="font-extralight text-white text-6xl"
+              text="Our solutions are specific to your issues, and we love to create
+            customized methods."
+            />
+          </div>
+
           <div className="h-full pl-16 flex flex-col items-end justify-around">
             <video
               className="w-64 h-64"
@@ -21,9 +26,11 @@ export const WorkTogether = () => {
             >
               <source src="" data-wf-ignore="true" />
             </video>
-            <p className="self-start font-extralight text-neutral-500 text-6xl w-4/5">
-              {"Show us your project and we'll find a way."}
-            </p>
+            <FloatingText
+              className="self-start font-extralight text-neutral-500 text-6xl w-4/5"
+              text="Show us your project and we'll find a way."
+            />
+
             <CircleButton
               defaultBorderColor="bg-transparent"
               hoveredBorderColor="bg-lime-300"

@@ -21,7 +21,7 @@ export const FloatingText = ({
         duration: 0.3,
         top: 0,
         opacity: 1,
-        delay: 0.3,
+        delay: 0.2,
         stagger: 0.02,
         ease: "sine.out",
         force3D: true,
