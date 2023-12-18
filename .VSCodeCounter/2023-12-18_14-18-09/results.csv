@@ -1,0 +1,19 @@
+"filename", "language", "TypeScript JSX", "CSS", "comment", "blank", "total"
+"/Users/harry/Desktop/mock-abodigital/app/GlobalComponent/CircleButton/index.tsx", "TypeScript JSX", 125, 0, 1, 6, 132
+"/Users/harry/Desktop/mock-abodigital/app/GlobalComponent/FloatingText/index.tsx", "TypeScript JSX", 55, 0, 0, 6, 61
+"/Users/harry/Desktop/mock-abodigital/app/GlobalComponent/HorizontalScrollingBox/index.tsx", "TypeScript JSX", 53, 0, 0, 7, 60
+"/Users/harry/Desktop/mock-abodigital/app/GlobalComponent/HorizontalSlideInBox/index.tsx", "TypeScript JSX", 38, 0, 1, 7, 46
+"/Users/harry/Desktop/mock-abodigital/app/GlobalComponent/SlidingText/index.tsx", "TypeScript JSX", 56, 0, 0, 9, 65
+"/Users/harry/Desktop/mock-abodigital/app/_components/CustomisedSolution/LoadingSVG/index.tsx", "TypeScript JSX", 40, 0, 0, 1, 41
+"/Users/harry/Desktop/mock-abodigital/app/_components/CustomisedSolution/index.tsx", "TypeScript JSX", 34, 0, 0, 6, 40
+"/Users/harry/Desktop/mock-abodigital/app/_components/HorizontalScrolling/index.tsx", "TypeScript JSX", 102, 0, 0, 3, 105
+"/Users/harry/Desktop/mock-abodigital/app/_components/LandingPage/NavigationBar/index.tsx", "TypeScript JSX", 41, 0, 0, 3, 44
+"/Users/harry/Desktop/mock-abodigital/app/_components/LandingPage/index.tsx", "TypeScript JSX", 63, 0, 0, 5, 68
+"/Users/harry/Desktop/mock-abodigital/app/_components/LatestNews/Blog/index.tsx", "TypeScript JSX", 10, 0, 0, 2, 12
+"/Users/harry/Desktop/mock-abodigital/app/_components/LatestNews/index.tsx", "TypeScript JSX", 21, 0, 0, 3, 24
+"/Users/harry/Desktop/mock-abodigital/app/_components/SmoothWrapper/index.tsx", "TypeScript JSX", 23, 0, 1, 5, 29
+"/Users/harry/Desktop/mock-abodigital/app/_components/WorkTogether/index.tsx", "TypeScript JSX", 50, 0, 0, 3, 53
+"/Users/harry/Desktop/mock-abodigital/app/globals.css", "CSS", 0, 3, 0, 1, 4
+"/Users/harry/Desktop/mock-abodigital/app/layout.tsx", "TypeScript JSX", 28, 0, 0, 4, 32
+"/Users/harry/Desktop/mock-abodigital/app/page.tsx", "TypeScript JSX", 16, 0, 0, 2, 18
+"Total", "-", 755, 3, 3, 73, 834

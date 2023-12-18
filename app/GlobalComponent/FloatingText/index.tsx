@@ -18,7 +18,7 @@ export const FloatingText = ({
 
     let ctx = gsap.context(() => {
       gsap.to(".words", {
-        duration: 0.3,
+        duration: 0.5,
         top: 0,
         opacity: 1,
         delay: 0.2,
@@ -28,10 +28,9 @@ export const FloatingText = ({
         scrollTrigger: {
           trigger: ".gsap-container",
           toggleActions: "play",
-          // markers: true,
         },
       });
-    }, comp);
+    }, comp.current);
 
     return () => ctx.revert();
   }, []);

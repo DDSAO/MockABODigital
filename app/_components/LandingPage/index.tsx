@@ -32,6 +32,9 @@ export const LandingPage = () => {
                 defaultBorderColor="bg-slate-50/50"
                 hoveredBorderColor="bg-white opacity-100"
                 className="w-fit group"
+                onClick={() => {
+                  
+                }}
               >
                 <a
                   href="https://www.abodigital.io/"

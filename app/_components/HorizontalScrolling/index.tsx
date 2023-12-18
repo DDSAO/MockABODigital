@@ -40,7 +40,7 @@ export const HorizontalScrolling = () => {
           className="text-5xl font-light my-16"
           text="We grow as you grow"
         />
-        <div className="h-screen grid grid-cols-4">
+        <div className="h-[80vh] grid grid-cols-4">
           <div className="relative h-full border-r border-slate-500 ">
             <div className="absolute left-0 top-0 w-full h-1/4">
               <HorizontalSlideInBox
